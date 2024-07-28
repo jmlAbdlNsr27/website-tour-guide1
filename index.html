@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <title>James HOME PAGE</title>
+  </head>
+
+  <body class="bg-dark">
+    <!--nav bar start-->
+    <nav
+      class="navbar navbar-expand-lg navbar-dark bg-dark text-light sticky-top"
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand" href="/">James-Tour</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/paket">Paket</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Lainnya
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="/kontak">Kontak</a></li>
+                <li><a class="dropdown-item" href="/gallery">Gallery</a></li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-light" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!--nav bar end-->
+
+    <!--layout 1-->
+    <div class="container-fluid text-light" style="height: 100vh">
+      <!--carousel image start-->
+      <div
+        id="carouselExampleIndicators"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="assets/citumang1.jfif"
+              class="d-block w-100"
+              alt="image carousel 1"
+              style="height: 500px"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="assets/citumang2.jfif"
+              class="d-block w-100"
+              alt="image carousel 2"
+              style="height: 500px"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="assets/citumang3.jfif"
+              class="d-block w-100"
+              alt="image carousel 3"
+              style="height: 500px"
+            />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <!--carousel image end-->
+      <div class="row text-center align-items-center mt-4">
+        <div class="col-12">
+          <img src="assets/citumang.jpeg" width="150px" height="150px" />
+          <h2 class="mt-2">James Tour Services</h2>
+          <i>
+            Menyediakan layanan boking boddy rafting wisata alam
+            <span style="color: chocolate">CITUMANG</span>
+            Pangandaran.
+          </i>
+        </div>
+      </div>
+      <!--container penawaran start-->
+      <div class="row">
+        <div class="col-sm-6 mt-4">
+          <div class="card text-dark">
+            <div class="card-body">
+              <h5>
+                PAKET HEMAT <span class="badge bg-secondary">Rp.80.000</span>
+              </h5>
+              <p class="card-text">Include Makan</p>
+              <a href="/paket/index.html" class="btn btn-dark d-block"
+                >Selengkapnya</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 mt-4">
+          <div class="card text-dark">
+            <div class="card-body">
+              <h5>
+                PAKET EXTRA HEMAT
+                <span class="badge bg-secondary">Rp.65.000</span>
+              </h5>
+              <p class="card-text">Tanpa Makan.</p>
+              <a href="/paket/index.html" class="btn btn-dark d-block"
+                >Selengkapnya</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--container penawaran end-->
+
+      <!--module start-->
+      <div class="card bg-dark text-light">
+        <div class="card-body">
+          <h3 class="text-center mt-4">Citumang Body Rafting</h3>
+          <p class="mt-2">
+            <strong>WISATA CITUMANG</strong> Merupakan salah satu obyek wisata
+            alam unggulan di Kabupaten Pangandaran, selain tempatnya masih
+            alami, wisata ini selalu ramai di kunjungi wisatawan, itu di
+            buktikan dengan selalu adanya kunjungan di hari biasa dan penuh di
+            musim liburan ataupun di setiap libur akhir pekan, untuk jaraknya
+            tidak terlalu jauh dari pantai pangandaran, batu hiu ataupun batu
+            karas, Jadi bisa menghemat waktu kunjungan. <br />
+          </p>
+          <p>
+            untuk akses jalan bisa dilalui dengan kendaraan kecil roda 2, roda 4
+            dan bus 3/4, untuk bus besar disediakan rest area khusus untuk
+            penjemputan.<br />
+          </p>
+          <p>
+            Setelah sampai di area parkir Citumang, anda dapat melakukan
+            registrasi tiket masuk Citumang, dan anda juga dapat memesan tiket
+            citumang secara online dengan cara menghubungi kami. Sehingga anda
+            tidak perlu antri dilokasi pembelian tiket Citumang.<br />
+          </p>
+          <p>
+            Setelah itu maka pemandu wisata akan mengarahkan anda untuk
+            melanjutkan perjalanan dengan berjalan kaki atau tracking melewati
+            tebing alam yang indah dan jalur pejalan kaki yang sudah tertata
+            secara baik.<br />
+            Jalan kaki menuju Sungai Citumang dari area parkir tidak terlalu
+            jauh. Terlebih lagi suasananya juga nyaman, tenang, indah, berpadu
+            dengan suara gemercik air yang menenangkan pikiran.<br />
+          </p>
+          <p>
+            Wisata Citumang sangat terkenal dengan pesona sungai yang cantik,
+            yang memiliki warna air yang biru (jernih). Sumber mata airnya
+            berasal dari bawah tanah langsung yang terhubung langsung dengan
+            grand valley.<br />
+          </p>
+          <p>
+            Trek body rafting akan menyusuri sungai Citumang sepanjang 1,5
+            kilometer, yang terbagi menjadi beberapa trek.<br />
+            Di antaranya :
+            <li>Trek pertama di sekitar area goa.</li>
+            <li>
+              Trek yang kedua menyusuri sungai dengan beberapa curug / air
+              terjun.
+            </li>
+            <li>Trek yang ke tiga yaitu menyusuri sungai setelah tebing.</li>
+          </p>
+          <p>
+            Disamping itu Citumang juga memiliki gua dengan panjang 35 meter,
+            tetapi buntu. Kedalaman air di dalam goa sekitar 3 - 4 meter. Para
+            wisatawan juga bisa melakukan aktivitas berenang, serta cliff
+            jumping di dalam gua tersebut, tentu saja dengan pengawasan dari
+            pemandu wisata yang sudah profesional.<br />
+            Sebelum masuk ke area goa wisatawan bisa menikmati terapi ikan
+            terlebih dahulu di kolam terapi ikan, dan trapi ikan ini akan
+            menjadi start awal memulai body rafting.<br />
+          </p>
+          <p>
+            Bagi anda yang suka menguji adrenalin, terdapat 4 spot loncatan
+            dengan ketinggian yang berpariasi. <br />
+            Diantaranya :
+            <li>Loncatan 7 meter yang ada di area goa.</li>
+            <li>
+              Loncatan 3 meter yang ada di area curug pertama / air terjun
+              pertama.
+            </li>
+            <li>
+              Loncatan 50 cm yang ada di area curug ke dua / air terjun ke dua.
+            </li>
+            <li>
+              Loncatan 1 meter yang ada di area curug ke tiga / air terjun ke
+              tiga.
+            </li>
+          </p>
+        </div>
+      </div>
+      <!--module end-->
+    </div>
+    <!--layout 1 end-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
